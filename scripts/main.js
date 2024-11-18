@@ -7,7 +7,7 @@ const fileGroups = {
     },
     {
       name: "1 квартал (2)",
-      url: "../files/2023_fame/1_quarter_fame/1(2).pdf",
+      url: "/mci/files/2023_fame/1_quarter_fame/1(2).pdf",
     },
     {
       name: "1 квартал (3)",
@@ -135,7 +135,7 @@ Object.keys(fileGroups).forEach((groupId) => {
 
     // Функціональність кнопки "Переглянути"
     viewBtn.addEventListener("click", () => {
-      window.open(`mci/${file.url}`, "_blank");
+      window.open(file.url, "_blank");
     });
   });
 });
