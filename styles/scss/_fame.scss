@@ -1,0 +1,61 @@
+.fame {
+  padding: clamp(13px, 3vw, 20px);
+
+  &__header {
+    font-size: clamp(22px, 3vw, 32px);
+    text-align: center;
+    margin-bottom: clamp(15px, 3vw, 25px);
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: clamp(10px, 3vw, 15px);
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+
+  &__name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__button {
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &--download {
+      background-color: #4caf50;
+
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+
+    &--view {
+      background-color: #007bff;
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
