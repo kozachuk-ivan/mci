@@ -87,7 +87,7 @@ const fileGroups = {
     { name: "2023 рік (2)", url: "../files/2023_fame/sum_fame/2023(2).pdf" },
     {
       name: "2023 рік (загальна)",
-      url: "../files2023_fame/sum_fame/2023(sum).pdf",
+      url: "../files/2023_fame/sum_fame/2023(sum).pdf",
     },
   ],
 };
@@ -135,7 +135,7 @@ Object.keys(fileGroups).forEach((groupId) => {
 
     // Функціональність кнопки "Переглянути"
     viewBtn.addEventListener("click", () => {
-      window.open(file.url, "_blank");
+      window.open(`/mci${file.url}`, "_blank");
     });
   });
 });
