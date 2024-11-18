@@ -1,0 +1,49 @@
+.about {
+  margin-bottom: clamp(30px, 5vw, 70px);
+  &__title {
+    margin-bottom: clamp(15px, 3vw, 25px);
+  }
+
+  &__project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: $body-bg-color;
+    border-left: 5px solid $orange-color;
+    border-right: 1px solid $content-color;
+    border-top: 1px solid $content-color;
+    border-bottom: 1px solid $content-color;
+    border-radius: 5px;
+
+    &-title {
+      font-size: 24px;
+      margin: 0;
+      color: #f05a00;
+    }
+    &-description {
+      margin: 10px 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    &-date,
+    &-contact {
+      font-style: italic;
+      color: #fff;
+    }
+    &-contact {
+      font-weight: 700;
+
+      &-info {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+        font-weight: 700;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}
