@@ -3,7 +3,7 @@ const fileGroups = {
   group1: [
     {
       name: "1 квартал (1)",
-      url: "../mci/files/2023_fame/1_quarter_fame/1(1).pdf",
+      url: "/mci/files/2023_fame/1_quarter_fame/1(1).pdf",
     },
     {
       name: "1 квартал (2)",
@@ -11,83 +11,83 @@ const fileGroups = {
     },
     {
       name: "1 квартал (3)",
-      url: "../files/2023_fame/1_quarter_fame/1(3).pdf",
+      url: "/mci/files/2023_fame/1_quarter_fame/1(3).pdf",
     },
     {
       name: "1 квартал (4)",
-      url: "../files/2023_fame/1_quarter_fame/1(4).pdf",
+      url: "/mci/files/2023_fame/1_quarter_fame/1(4).pdf",
     },
   ],
   group2: [
     {
       name: "2 квартал (1)",
-      url: "../files/2023_fame/2_quarter_fame/2(1).pdf",
+      url: "/mci/files/2023_fame/2_quarter_fame/2(1).pdf",
     },
     {
       name: "2 квартал (2)",
-      url: "../files/2023_fame/2_quarter_fame/2(2).pdf",
+      url: "/mci/files/2023_fame/2_quarter_fame/2(2).pdf",
     },
     {
       name: "2 квартал (3)",
-      url: "../files/2023_fame/2_quarter_fame/2(3).pdf",
+      url: "/mci/files/2023_fame/2_quarter_fame/2(3).pdf",
     },
     {
       name: "2 квартал (4)",
-      url: "../files/2023_fame/2_quarter_fame/2(4).pdf",
+      url: "/mci/files/2023_fame/2_quarter_fame/2(4).pdf",
     },
     {
       name: "2 квартал (5)",
-      url: "../files/2023_fame/2_quarter_fame/2(5).pdf",
+      url: "/mci/files/2023_fame/2_quarter_fame/2(5).pdf",
     },
     {
       name: "2 квартал (6)",
-      url: "../files/2023_fame/2_quarter_fame/2(6).pdf",
+      url: "/mci/files/2023_fame/2_quarter_fame/2(6).pdf",
     },
     {
       name: "2 квартал (7)",
-      url: "../files/2023_fame/2_quarter_fame/2(7).pdf",
+      url: "/mci/files/2023_fame/2_quarter_fame/2(7).pdf",
     },
   ],
   group3: [
     {
       name: "3 квартал (1)",
-      url: "../files/2023_fame/3_quarter_fame/3(1).pdf",
+      url: "/mci/files/2023_fame/3_quarter_fame/3(1).pdf",
     },
     {
       name: "3 квартал (2)",
-      url: "../files/2023_fame/3_quarter_fame/3(2).pdf",
+      url: "/mci/files/2023_fame/3_quarter_fame/3(2).pdf",
     },
     {
       name: "3 квартал (3)",
-      url: "../files/2023_fame/3_quarter_fame/3(3).pdf",
+      url: "/mci/files/2023_fame/3_quarter_fame/3(3).pdf",
     },
     {
       name: "3 квартал (4)",
-      url: "../files/2023_fame/3_quarter_fame/3(4).pdf",
+      url: "/mci/files/2023_fame/3_quarter_fame/3(4).pdf",
     },
     {
       name: "3 квартал (5)",
-      url: "../files/2023_fame/3_quarter_fame/3(5).pdf",
+      url: "/mci/files/2023_fame/3_quarter_fame/3(5).pdf",
     },
     {
       name: "3 квартал (6)",
-      url: "../files/2023_fame/3_quarter_fame/3(6).pdf",
+      url: "/mci/files/2023_fame/3_quarter_fame/3(6).pdf",
     },
     {
       name: "3 квартал (7)",
-      url: "../files/2023_fame/3_quarter_fame/3(7).pdf",
+      url: "/mci/files/2023_fame/3_quarter_fame/3(7).pdf",
     },
     {
       name: "3 квартал (8)",
-      url: "../files/2023_fame/3_quarter_fame/3(8).pdf",
+      url: "/mci/files/2023_fame/3_quarter_fame/3(8).pdf",
     },
   ],
   group4: [
-    { name: "2023 рік (1)", url: "../files/2023_fame/sum_fame/2023(1).pdf" },
-    { name: "2023 рік (2)", url: "../files/2023_fame/sum_fame/2023(2).pdf" },
+    { name: "2023 рік (1)", url: "/mci/files/2023_fame/sum_fame/2023(1).pdf" },
+    { name: "2023 рік (2)", url: "/mci/files/2023_fame/sum_fame/2023(2).pdf" },
     {
       name: "2023 рік (загальна)",
-      url: "../files/2023_fame/sum_fame/2023(sum).pdf",
+      url: "/mci/files/2023_fame/sum_fame/2023(sum).pdf",
     },
   ],
 };
