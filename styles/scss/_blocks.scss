@@ -7,8 +7,9 @@
 
 .subtitle {
   font-family: $second-font-family;
+  text-align: center;
   font-weight: 700;
-  font-size: clamp(20px, 3vw, 36px);
+  font-size: clamp(23px, 3vw, 36px);
   margin-block: clamp(15px, 3vw, 25px);
 }
 
@@ -31,4 +32,13 @@
 
 .mark {
   color: $orange-color;
+}
+
+.box {
+  background-color: $body-bg-color;
+  border-left: 5px solid $orange-color;
+  border-right: 1px solid $content-color;
+  border-top: 1px solid $content-color;
+  border-bottom: 1px solid $content-color;
+  border-radius: 5px;
 }
